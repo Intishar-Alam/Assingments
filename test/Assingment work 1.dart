@@ -14,7 +14,7 @@ class person implements Role {
 }
 
 class student extends person {
-  int _StudentId; //unchhangeable
+  final int _StudentId; //unchhangeable
   String grade;
   List<double> courseScore;
 
@@ -38,7 +38,7 @@ class student extends person {
 }
 
 class Teacher extends person {
-  int _TeacherId; //Unchangeable
+  final int _TeacherId; //Unchangeable
   List<String> courseTaught;
 
   Teacher(
