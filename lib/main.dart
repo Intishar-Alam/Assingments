@@ -122,6 +122,7 @@ class _HomeState extends State<Home> {
                     itemCount: contacts.length,
                     itemBuilder: (context, index) {
                       return Card(
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
 
                         child: ListTile(
                           onLongPress: ()=> alertbox(index),
