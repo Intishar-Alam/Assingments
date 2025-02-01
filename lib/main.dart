@@ -60,7 +60,7 @@ class _HomeState extends State<Home> {
           actions: [
             IconButton(onPressed: (){
               Navigator.of(context).pop();
-            }, icon: Icon(Icons.cancel_presentation_sharp,color: Colors.blue,)),
+            }, icon: Icon(Icons.signal_cellular_no_sim_outlined,color: Colors.blue,)),
 
             IconButton(onPressed: (){
               setState(() {
